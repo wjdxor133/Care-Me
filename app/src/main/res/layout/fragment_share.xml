@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/share"
+    android:orientation="vertical">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="161dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="4867-heart-shaped-balloons.json"
+        app:lottie_loop="true"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view2"
+        android:layout_width="161dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="10349-jumping-gift.json"
+        app:lottie_loop="true"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/boardbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="57dp"
+        android:background="#00000000"
+        android:drawableTop="@drawable/select_share_myboard"
+        android:text="게시판"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/rescuebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="57dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:background="#00000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/select_share_myrescue"
+        android:text="유기동물" />
+</RelativeLayout>

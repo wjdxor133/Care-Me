@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/find"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="400dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="50dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="7420-clouds-opening.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view3"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="270dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="9124-twin-pine.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view2"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="270dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="6176-throw-that-ball.json"
+        app:lottie_loop="true" />
+
+    <Button
+        android:id="@+id/camerabtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="57dp"
+        android:background="#00000000"
+        android:drawableTop="@drawable/select_find_mycamera"
+        android:text="스트리밍"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/GPSbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="57dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:background="#00000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/select_find_mygps"
+        android:text="위치 정보" />
+
+</RelativeLayout>

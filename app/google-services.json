@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "947651625687",
+    "firebase_url": "https://universal-rex-243005.firebaseio.com",
+    "project_id": "universal-rex-243005",
+    "storage_bucket": "universal-rex-243005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947651625687:android:dffe2d2f9320806458a692",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947651625687-pic41m46b0pi3293g9hasulvk365e46r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmp5t13nwbDXaja-DvOs5tK7SfM5gGwy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947651625687-pic41m46b0pi3293g9hasulvk365e46r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

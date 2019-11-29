@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activity.LoadingActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/loading_radius"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="8913-sombra-the-dog.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="75dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="8863-waiting.json"
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="7893-confetti-cannons.json"
+        app:lottie_loop="true" />
+
+
+</RelativeLayout>
