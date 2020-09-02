@@ -5,8 +5,8 @@
 - 인원 : 4명
 - 프로젝트 기간 : 2019.8 ~ 2019.11.05
 
-## Demo
-
+## Demo (click!)
+[![Video Label](https://www.aitimes.kr/news/photo/201901/13242_13655_912.jpg)](https://www.youtube.com/watch?v=R1YNV8c7Gc0)
 
 ## 목표
 -  App에 IOT(사물 인터넷)을 접목시켜 편리하게 사용할 수 있고 안심을 주며 반려동물을 지켜주기 위한 애플리케이션 개발
